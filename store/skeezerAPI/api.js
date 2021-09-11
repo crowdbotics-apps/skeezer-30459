@@ -1,6 +1,6 @@
 import axios from "axios"
 const skeezerAPI = axios.create({
-  baseURL: "https://skeezer-30459-prod.herokuapp.com",
+  baseURL: "https://skeezer-30459.botics.co",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_login_create(payload) {
